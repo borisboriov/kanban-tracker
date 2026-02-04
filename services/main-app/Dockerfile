@@ -13,3 +13,5 @@ RUN poetry config virtualenvs.create false && \
 
 COPY ./src /code/src
 COPY ./settings.toml /code/settings.toml
+COPY ./alembic /code/alembic
+COPY ./alembic.ini /code/alembic.ini
